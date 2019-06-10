@@ -11,6 +11,9 @@ h2{
   padding:0.8rem 0 0 1rem;
   margin:0;
 }
+.col2-h2{
+  padding-top: 0.8rem;
+}
 h3{
   margin:0.8rem 0 0.8rem 2rem;
 }

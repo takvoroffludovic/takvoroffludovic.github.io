@@ -1,2 +1,2 @@
 Pour voir mon CV :
-# takvoroffludovic.github.io
+# takvoroffludovic.github.io/cv

@@ -2,30 +2,6 @@ body{
   background:url(image/Fond.jpg) no-repeat 50% 50% / 100% fixed;
   font-family: "Microsoft JhengHei";
 }
-h2{
-  padding:0rem 0 0 1rem;
-  margin:0;
-}
-.h2-spe{
-  background:#1c1c1c;
-  padding:0 0 0 1rem;
-  margin:0;
-}
-.col2-h2{
-  padding-top: 0.8rem;
-}
-h3{
-  margin:0.8rem 0 0.8rem 2rem;
-}
-p{
-  margin:0.5rem 0 0.5rem 2rem;
-}
-li{
-  margin:0.5rem 0 0.5rem 3rem;
-}
-a{
-  color:#F5F8FB;
-}
 .template-cv{
   display:flex;
   flex-direction:row;
@@ -33,19 +9,25 @@ a{
   width: 1200px;
   margin: 0 auto;
 }
+p,i{
+  margin:0 0 0 1.4rem;
+}
+
+
+
 .col1{
   width:32%;
-  color:#f2f1ef;
+  color:#F5F8FB;
 }
 .col1 .profil{
   text-align: center;
   text-transform: uppercase;
   background:#0c0c0c;
-  padding-bottom: 0.7rem;
-  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 .col1 .profil h1{
-  margin: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
+  margin: 0 0;
 }
 .col1 .profil p{
   text-align:left;
@@ -54,13 +36,23 @@ a{
 .mail{
   text-transform: none;
 }
+a{
+  color:#F5F8FB;
+}
+h2{
+  padding:0 0 0 1.4rem;
+  margin:0;
+}
+.col1 p{
+  margin: 0 1.4rem
+}
 .competences{
   background: #151515;
   padding-bottom: 0.5rem;
 }
 .competences .circle-5,.circle-4,.circle-3{
-  margin-left: 2rem;
-  margin-top: 0.5rem;
+  margin-left: 1.8rem;
+  margin-top: 0.3rem;
 }
 .competences .circle-5 .c1,.c2,.c3,.c4,.c5 ,.circle-4 .c1,.c2,.c3,.c4,.c5 ,.circle-3 .c1,.c2,.c3,.c4,.c5{
   position: relative;
@@ -70,7 +62,7 @@ a{
   border-radius: 100%;
   border: 0.1rem;
   background: #F5F8FB;
-  margin: 0 0.2rem 0 0.5rem;
+  margin: 0 0.3rem;
 }
 .competences .circle-4 .c5{
   height: 0.9rem;
@@ -90,22 +82,33 @@ a{
   border: 0.1rem;
   background: #F5F8FB;
 }
-.logiciels{
+.h2-spe{
   background:#1c1c1c;
 }
-.sub-col1 .sub-col2 .sub-col3{
+.logiciels{
+  background:#1c1c1c;
+  padding: 0 1.4rem 0.3rem 1.4rem;
+}
+.sub-col1 .sub-col2{
   display:flex;
   flex-direction:row;
 }
-.logiciels img:not(.sublime){
-  margin: 0.2rem;
-  margin-left: 5rem;
+.logiciels .sub-col1 img:not(.lastimg1){
+  margin: 0.3rem 5.6rem 0.3rem 0;
 }
-.sublime{
-  margin: 1rem;
-  margin-left: 4.5rem;
+.logiciels .sub-col2 img:not(.lastimg2,.wireshark){
+  margin: 0 4.9rem 0 0;
 }
-.réalisations{
+.logiciels .sub-col2 .wireshark{
+  margin: 0 5.3rem 0 0;
+}
+.lastimg1{
+  margin: 0.3rem 0;
+}
+.lastimg2{
+  margin: 0 0;
+}
+.realisations{
   background:#242424;
   padding-bottom: 0.5rem;
 }
@@ -113,29 +116,33 @@ a{
   background:#2c2c2c;
   padding-bottom: 0.5rem;
 }
+
+
+
 .col2{
   width:68%;
   background:#F5F8FB;
   color:#1B1F21;
 }
-.col2 h3{
-   margin-bottom: 0;
- }
-.col2 i, p{
-  margin: 0 0 0 2rem;
+.col2 h2{
+  padding: 1.4rem 0 0 1.4rem;
+}
+h3{
+  margin:0.8rem 0 0 1.4rem;
+}
+.col2 ul{
+  margin: 0;
+}
+li{
+  margin-left:1.5rem;
 }
 
-@media (min-width: 280px) and (max-width: 1200px){
+
+
+@media (min-width: 0px) and (max-width: 1299px){
 body{
   background:#1B1F21;
   margin: 0;
   padding: 0;
   }
-}
-@media screen (min-width: 1201px) and (max-width: 1800px){
-body{
-   background:url(image/Fond.jpg) no-repeat;
-   margin: 0;
-   padding: 0;
- }
 }
